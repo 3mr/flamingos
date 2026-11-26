@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@keyframes backyard-shine {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+.backyard-shine {
+  color: #fff;
+  background-image: linear-gradient(110deg, #fff 0%, #fff 40%, #dbeafe 50%, #fff 60%, #fff 100%);
+  background-size: 220% 100%;
+  background-position: 100% 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: backyard-shine 3.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backyard-shine {
+    animation: none;
+  }
+}
