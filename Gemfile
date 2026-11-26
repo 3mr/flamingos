@@ -66,3 +66,5 @@ group :test do
 end
 
 gem "tailwindcss-rails", ">= 4.7"
+
+gem "foreman", ">= 0.90.0"
