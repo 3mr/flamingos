@@ -13,7 +13,9 @@ ssh:
 
 proxy:
   ssl: true
-  host: flamingos.ws
+  hosts:
+    - flamingos.ws
+    - www.flamingos.ws
 
 # Where you keep your container images.
 registry:
